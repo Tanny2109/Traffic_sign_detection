@@ -1,0 +1,13 @@
+# Ignore datasets folder
+datasets/
+
+# Ignore runs folder
+runs/
+
+# Ignore wand folder
+wandb/
+
+/test
+/train
+/valid
+
