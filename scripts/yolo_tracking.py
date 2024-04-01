@@ -15,10 +15,10 @@ conf_thres = 0.4  # confidence threshold
 iou_thres = 0.5   # IOU threshold
 
 # Load video
-video_path = 'video_5_min.mp4'
+video_path = '../output/video_5_min.mp4'
 cap = cv2.VideoCapture(video_path)
 
-save_path = "/home/GPU/tsutar/home_gtl/Traffic_sign_detection/scripts"
+save_path = "../output"
 size = (int(cap.get(3)), int(cap.get(4)))
 
 out_writer = cv2.VideoWriter(

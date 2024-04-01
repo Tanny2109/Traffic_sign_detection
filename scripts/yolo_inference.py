@@ -14,7 +14,7 @@ rf = Roboflow(api_key="azodSTTVgBufbgTDaoab")
 project = rf.workspace().project("road-detection-segmentation")
 model2 = project.version(7).model
 
-result2 = model2.predict(img, confidence=10).json() 
+result2 = model2.predict(img, confidence=40).json() 
 
 labels = [item["class"] for item in result2["predictions"]]
 
