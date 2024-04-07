@@ -10,4 +10,4 @@ wandb/
 /test
 /train
 /valid
-
+/output/vid_frames
